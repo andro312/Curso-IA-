@@ -31,3 +31,7 @@ print(s)
 ``` 
 ## manejo de git
 >git init #inicia el repositorio
+git add 
+git commit -m "introducción a pandas 5%"
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
