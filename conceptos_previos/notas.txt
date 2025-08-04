@@ -1,0 +1,1 @@
+el pip indica que descargas tenemos de librerias y se encargar de hacer esas descargas
