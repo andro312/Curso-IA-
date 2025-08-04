@@ -9,6 +9,7 @@ https://git-scm.com
 ## crear entorno virtual
 python -m venv env
 -- es obligatorio hasta venv, despues de ahi es solo el nombre 
+desativar el entorno: deactivate 
 ## activar entorno
 env\scripts\activate
 sino se activa el ejecutor, se ejecuta poweshell y se coloca: set-ExecutionPolicy Unrestricted
@@ -35,7 +36,7 @@ git add
 git commit -m "introducción a pandas 5%"
     git config --global user.email "you@example.com"
     git config --global user.name "Your Name"
-    
+
 ## github
 usergithub: andro312 
 correo: andaesra312@gmail.com
