@@ -35,3 +35,9 @@ git add
 git commit -m "introducción a pandas 5%"
     git config --global user.email "you@example.com"
     git config --global user.name "Your Name"
+usergithub: andro312 
+correo: andaesra312@gmail.com
+contra: elbot_andro312
+
+crear archivo requeriment
+pip  freeze  > requirements.txt # con el env activo para que muestre cuales son las librerias activas
