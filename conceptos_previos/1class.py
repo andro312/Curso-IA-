@@ -18,3 +18,10 @@ print(s)
 #creacion de un objeto series inicializandolo con un escalar
 s=pd.Series(34,["test1","test2","test3"])
 print(s)
+
+#ACCESO A LOS ELEMENTOS DE UN OBJETO SERIES
+#cada elemento de objeto series tiene un identificador unico 
+s=  pd.Series([2,4,6,8],index=["num1","num2","num3","num4"])
+print(s)
+#accediendo al tercer objeto del objeto
+print(s["num3"])
