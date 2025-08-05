@@ -46,3 +46,5 @@ ruta repocitorio: https://github.com/andro312/Curso-IA-.git
 
 ## crear archivo requeriment
 pip  freeze  > requirements.txt # con el env activo para que muestre cuales son las librerias activas
+## instalar requeriments
+pip install -r requirements.txt
