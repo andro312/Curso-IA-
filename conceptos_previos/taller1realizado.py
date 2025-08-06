@@ -41,3 +41,7 @@ print(dfcopy)
 dtf3 = pd.DataFrame(dfcopy, columns=["edad","añonacer"],
                     index=["Ana", "Carlos", "Daniela", "Eduardo", "Fernanda"])
 print(dtf3)
+
+#estaditicas descriptivas
+estadisticas = df.describe()
+print(estadisticas)
