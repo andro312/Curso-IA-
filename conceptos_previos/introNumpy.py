@@ -46,7 +46,7 @@ g= np.random.rand(2,4)
 Histograma con valores aleatorios
 """
 h=np.random.rand(100)
-
+print(h)
 #plt.hist(h)
 #plt.show()
 
@@ -57,4 +57,4 @@ def func(x,y):
     return x+2*y
 
 i= np.fromfunction(func,(3,5))
-print(i)
+#print(i)
