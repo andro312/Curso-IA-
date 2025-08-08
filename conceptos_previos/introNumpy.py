@@ -56,5 +56,5 @@ i= np.array([1,2,3,2,2,2,4,5,6,7,8])
 def func(x,y):
     return x+2*y
 
-i=np.fromfunction(func,(3,5))
+i= np.fromfunction(func,(3,5))
 print(i)
