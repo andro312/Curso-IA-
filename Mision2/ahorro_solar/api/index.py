@@ -13,9 +13,9 @@ def formulario():
 def predecir():
     datos={
         'ubicacion':request.form['ubicacion'],
-        'tamaño_hogar':request.form['tamaño_hogar'],
-        'costo_instalacion':request.form['costo_instalacion'],
-        'energia_generada':request.form['energia_generada']
+        'tamaño_hogar':int(request.form['tamaño_hogar']),
+        'costo_instalacion':float(request.form['costo_instalacion']),
+        'energia_generada':float(request.form['energia_generada'])
     }
     df=pd.DataFrame([datos])
     df_encoded=pd.get_dummies(df)
