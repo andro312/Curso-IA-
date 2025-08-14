@@ -13,4 +13,21 @@ version de python 3.13.5
 ahorro_solar 
 -modelo 
     -modelo.py
-    
+-Templates
+    -formulario.html
+    -resultado.html
+-api
+    -index.py
+-static
+    -style.css
+
+## librerias
+
+| libreria | comando                  |
+| -------- | ------------------------ |
+| Flask    | pip install Flask        |
+| sklearn  | pip install scikit-learn |
+| pandas   | pip install pandas       |
+| pickle   | pip install pickle       |
+
+
